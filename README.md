@@ -1,37 +1,33 @@
-## Kaspar Tomson
+![Kaspar Tomson — founder of Maskbreak, Tallinn](assets/profile-banner.svg)
 
-Founder of **[Maskbreak](https://maskbreak.com)** — a real-time fraud detection
-API that flags VPNs, residential proxies, antidetect browsers and automated
-traffic in under 40 ms.
+### I build tools that help teams understand who's behind a visit.
 
-Based in Tallinn, Estonia.
+I'm Kaspar, founder of **[Maskbreak](https://maskbreak.com)**, based in Tallinn, Estonia.
+I'm working on fraud detection that brings network signals and browser context together—so developers can make better decisions at signup, login, and checkout.
+
+[Explore Maskbreak](https://maskbreak.com) · [Read the docs](https://maskbreak.com/api) · [Get a free API key](https://maskbreak.com/signup)
 
 ### What I'm building
 
-Fraud tooling built around IP reputation misses most of what actually matters
-now: rented residential proxies, spoofed browser fingerprints from
-Kameleo/GoLogin/AdsPower, and agentic automation. Maskbreak pairs network
-attribution with device fingerprinting so a single `POST /v1/evaluate` returns
-an `allow` / `review` / `block` decision fast enough to sit in a checkout or
-signup path.
+**Maskbreak** turns a live visit into an `allow`, `review`, or `block` decision, with the signals behind it.
+The focus: hidden proxies, fake browsers, automation, and account abuse. A VPN alone is a reason to review—not proof of fraud.
 
-Runs on Node.js and Express behind Cloudflare, with an edge worker handling the
-first-pass scan and libSQL for storage.
+The stack behind it: **Node.js · Express · Cloudflare · Railway · libSQL**.
 
-### Open source
+### Open-source tools
 
-Official SDKs, all zero-dependency and MIT licensed:
+| Project | What it's for | Install |
+| :--- | :--- | :--- |
+| **[Node.js SDK](https://github.com/sentinelsup/maskbreak-node)** | Add visitor checks to your JavaScript backend | `npm install @sentinelsup/sdk` |
+| **[Python SDK](https://github.com/sentinelsup/maskbreak-python)** | Evaluate visits from Python services | `pip install sentinelsup` |
+| **[PHP SDK](https://github.com/sentinelsup/maskbreak-php)** | Protect PHP and WordPress endpoints | `composer require sentinelsup/sdk` |
+| **[MCP server](https://github.com/sentinelsup/maskbreak-mcp)** | Inspect IP network context from an MCP client | `npx @sentinelsup/mcp` |
 
-| | Repository | Package |
-|---|---|---|
-| Node.js | [maskbreak-node](https://github.com/sentinelsup/maskbreak-node) | [`@sentinelsup/sdk`](https://www.npmjs.com/package/@sentinelsup/sdk) |
-| Python | [maskbreak-python](https://github.com/sentinelsup/maskbreak-python) | [`sentinelsup`](https://pypi.org/project/sentinelsup/) |
-| PHP | [maskbreak-php](https://github.com/sentinelsup/maskbreak-php) | [`sentinelsup/sdk`](https://packagist.org/packages/sentinelsup/sdk) |
+The SDKs keep their original `sentinelsup` package names for compatibility.
+Browse the projects at **[github.com/sentinelsup](https://github.com/sentinelsup)**.
 
-### Elsewhere
+### Notes & contact
 
-[maskbreak.com](https://maskbreak.com) ·
-[API docs](https://maskbreak.com/api) ·
-[Blog](https://maskbreak.com/blog) ·
-[@MaskbreakSup](https://x.com/MaskbreakSup) ·
-[support@maskbreak.com](mailto:support@maskbreak.com)
+I share practical integration guides and product updates on the **[Maskbreak blog](https://maskbreak.com/blog)**.
+
+[Website](https://maskbreak.com) · [API reference](https://maskbreak.com/api) · [Contact](https://maskbreak.com/contact) · [support@maskbreak.com](mailto:support@maskbreak.com)

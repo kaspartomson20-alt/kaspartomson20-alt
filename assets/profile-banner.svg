@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Kaspar Tomson — building Maskbreak</title>
+  <desc id="desc">A light ultramarine banner with Kaspar's name and a diagram bringing network and browser signals together.</desc>
+  <defs><clipPath id="frame"><rect width="1280" height="320" rx="24"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" fill="#f4f6fc"/>
+    <rect width="8" height="320" fill="#2733d9"/>
+    <path d="M794 0H1280V320H746Z" fill="#10152e"/>
+    <g font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif">
+      <text x="52" y="67" fill="#2733d9" font-size="18" font-weight="700" letter-spacing="3">FOUNDER · MASKBREAK</text>
+      <text x="48" y="151" fill="#10152e" font-size="66" font-weight="700" letter-spacing="-3">Kaspar Tomson</text>
+      <text x="52" y="203" fill="#454e6b" font-size="26">Building trust into every visit.</text>
+      <text x="52" y="274" fill="#454e6b" font-size="17">Tallinn, Estonia</text>
+      <text x="599" y="274" fill="#2733d9" font-size="17">maskbreak.com</text>
+    </g>
+    <g fill="none" stroke="#9daef7" stroke-width="2">
+      <path d="M869 99H911Q929 99 929 117V143Q929 161 948 161H995"/>
+      <path d="M845 224H911Q929 224 929 206V179Q929 161 948 161"/>
+      <path d="M1067 161H1178"/>
+      <circle cx="855" cy="99" r="14"/>
+      <rect x="820" y="211" width="25" height="25" rx="5"/>
+      <circle cx="1192" cy="161" r="14"/>
+      <path d="m1186 161 4 4 8-8" stroke="#ffffff"/>
+    </g>
+    <rect x="995" y="125" width="72" height="72" rx="19" fill="#2733d9"/>
+    <path d="M1031 143a18 18 0 1 0 0 36m0-36v36m4-34a18 18 0 0 1 0 32" fill="none" stroke="#fff" stroke-width="4"/>
+    <g fill="#c3ccef" font-family="'SFMono-Regular', Consolas, monospace" font-size="14" letter-spacing="1">
+      <text x="818" y="65">NETWORK</text>
+      <text x="806" y="271">BROWSER</text>
+      <text x="990" y="226">CONTEXT</text>
+    </g>
+  </g>
+</svg>
