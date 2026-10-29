@@ -11,8 +11,11 @@ I'm working on fraud detection that brings network signals and browser context t
 
 **Maskbreak** turns a live visit into an `allow`, `review`, or `block` decision, with the signals behind it.
 The focus: hidden proxies, fake browsers, automation, and account abuse. A VPN alone is a reason to review—not proof of fraud.
+The same call can also score the email address and phone number of a signup, and flag a login that looks like an account takeover.
 
-The stack behind it: **Node.js · Express · Cloudflare · Railway · libSQL**.
+The Free plan is 10,000 visitor checks a month, with no credit card and no hourly limit; paid plans start at €29 a month.
+
+The stack behind it: **Node.js · Express · Cloudflare (Workers, Containers, D1)**.
 
 ### Open-source tools
 
